@@ -7,7 +7,7 @@ public class Item {
   public Item(String name, int weight){
   //Item constructor, takes in string and int for the item
     nameOfItem = name;
-    weightOfitem = weight;
+    weightOfItem = weight;
   }
   
 
@@ -18,12 +18,17 @@ public class Item {
   
   public void setWeightOfItem(int weight){
   //Stores value for the weight of the item 
-    weightOfitem = weight;
+    weightOfItem = weight;
   }
   
   public getNameOfItem(){
   //Returns the item's name
     return nameOfItem;
+  }
+  
+  public getWeightOfItem(){
+  //Returns the weight of item
+    return weightOfItem;
   }
   
 
