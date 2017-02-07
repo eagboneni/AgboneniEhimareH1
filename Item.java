@@ -21,16 +21,20 @@ public class Item {
     weightOfItem = weight;
   }
   
-  public getNameOfItem(){
+  public String getNameOfItem(){
   //Returns the item's name
     return nameOfItem;
   }
   
-  public getWeightOfItem(){
+  public int getWeightOfItem(){
   //Returns the weight of item
     return weightOfItem;
   }
   
-
+  
+   public static void examine(Item i){
+  //Displays discription of the item with it's name and weight
+    System.out.println("The " + i.getNameOfItem() + " weighs " + i.getWeightOfItem() + " pounds" );
+  }
   
 }
