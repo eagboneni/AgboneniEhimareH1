@@ -16,6 +16,10 @@ public class Item {
     nameOfItem = name;
   }
   
+  public void setWeightOfItem(int weight){
+  //Stores value for the weight of the item 
+    weightOfitem = weight;
+  }
   
   
 
