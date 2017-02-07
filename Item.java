@@ -21,6 +21,10 @@ public class Item {
     weightOfitem = weight;
   }
   
+  public getNameOfItem(){
+  //Returns the item's name
+    return nameOfItem;
+  }
   
 
   
