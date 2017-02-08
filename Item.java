@@ -32,9 +32,9 @@ public class Item {
   }
   
   
-   public static void examine(Item i){
+   public void examine(){
   //Displays discription of the item with it's name and weight
-    System.out.println("The " + i.getNameOfItem() + " weighs " + i.getWeightOfItem() + " pounds" );
+    System.out.println("The " + this.getNameOfItem() + " weighs " + this.getWeightOfItem() + " pounds" );
   }
   
 }
