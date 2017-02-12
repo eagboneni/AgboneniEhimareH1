@@ -1,0 +1,6 @@
+public class Armor{
+
+  public Armor(String name, int weight, int defense, int durability){
+  
+  }
+}
